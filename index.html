@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header" id="home">
+        <nav>
+            <a href="index.html"><img src="images/Restaurant-Logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#speiseangebote">SPEISEANGEBOTE</a></li>
+                    <li><a href="#standorte">STANDORTE</a></li>
+                    <li><a href="#oeffnungszeiten">ÖFFNUNGSZEITEN</a></li>
+                    <li><a href="#bewertung">BEWERTUNG</a></li>
+                    <li><a href="#reservierung">RESERVIERUNG</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+    <div class="text-box">
+        <h1>Lecker-Super Restaurant</h1>
+        <p> Lecker-Super Restaurant ist ein familiengeführtes Restaurant, <br>
+            das sich auf qualitativ hochwertige und schmackhafte Gerichte <br>
+            spezialisiert hat. Unser engagiertes Team arbeitet gemeinsam, <br>
+            um Ihnen ein unvergessliches kulinarisches Erlebnis zu bieten</p>
+    </div>
+
+    </section>
+
+    <section class="course" id="speiseangebote">
+        <h1>Speisenangebote</h1>
+        <p>Hier können Sie zischen unserem breiten Angebot an verschiedensten Speisen auswählen</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Vorspeisen</h3>
+                <p>Tomatensuppe - 5,99 €</p>
+                <p>Caprese-Salat - 6,99 €</p>
+                <p>Bruschetta - 4,99 €</p>
+                <p>Vegetarische Frühlingsrollen - 8,99 €</p>
+                <p>Vegane Suppe - 7,99 €</p>
+            </div>
+            <div class="course-col">
+                <h3>Hauptgerichte</h3>
+                <p>Pasta Bolognese - 9,99 €</p>
+                <p>Rindersteak mit Gemüse - 15,99 €</p>
+                <p>Vegetarische Lasagne - 11,99 €</p>
+                <p>Veganes Curry - 12,99 €</p>
+            </div>
+            <div class="course-col">
+                <h3>Nachtische</h3>
+                <p>Tiramisu - 5,99 €</p>
+                <p>Schokoladen-Mousse - 4,99 €</p>
+                <p>Obstsalat - 3,99 €</p>
+            </div>
+            <div class="course-col">
+                <h3>Getränkekarte</h3>
+                <h4>Alkoholische Getränke</h4>
+                <p>Rotwein (0,75l) - 15,99 €</p>
+                <p>Weißwein (0,75l) - 14,99 €</p>
+                <p>Bier - 1,00 €</p>
+                <p>Cocktail "Mojito" - 8,99 €</p>
+                <br>
+                <h4>Alkoholfreie Getränke</h4>
+                <p>Cola - 2,99 €</p>
+                <p>Wasser - 1,99 €</p>
+                <p>Fruchtsaft - 3,49 €</p>
+                <p>Smoothie "Grüne Oase" - 5,99 €</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="campus" id="standorte">
+        <h1>Standorte</h1>
+        <p>An diesem Standorten sind wir zu finden</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/berlin.jpg">
+                <div class="layer">
+                    <h3>BERLIN</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/hamburg.png">
+                <div class="layer">
+                    <h3>HAMBURG</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/münchen.png">
+                <div class="layer">
+                    <h3>MÜNCHEN</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities" id="oeffnungszeiten">
+        <h1>Unsere Öffnungszeiten</h1>
+        <p>Mo-Fr, Sa, So</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/mofr.png">
+                <h3>Mo - Fr</h3>
+                <p>Montag / 11 - 22 Uhr</p>
+                <p>Dienstag / geschlossen</p>
+                <p>Mittwoch / 11 - 22 Uhr</p>
+                <p>Donnerstag / 11 - 22 Uhr</p>
+                <p>Freitag / 11 - 22 Uhr</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/wochenende.png">
+                <h3>Wochenende</h3>
+                <p>Samstag / 12 - 23 Uhr</p>
+                <p>Sonntag / 16 - 23 Uhr</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/feiertage.png">
+                <h3>Feiertage</h3>
+                <p>Ostern / 16 - 23 Uhr</p>
+                <p>Halloween / 16 - 23 Uhr</p>
+                <p>Weihnachten / geschlossen</p>
+                <p>Sivester / geschlossen</p>
+                <p>Neujahr / 16 - 23 Uhr</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="bewertung">
+
+        <h1>Bewerten Sie uns</h1>
+        <p>Bewertung</p>
+
+        <input type="text" id="rating" name="rating" class="bewertung">
+
+        <p>Bewertung mit Sternen</p>
+
+        <input type="range" id="rating" name="rating" min="0" max="5" value="0" oninput="this.nextElementSibling.value = this.value + ' Sterne';">
+        <output>0 Sterne</output>
+        <br>
+           
+        <a type="button" class="hero-btn" onclick="sendeBewertung()">Bewertung senden</a>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>
+                        "Ein absolutes Highlight! Dieses Restaurant übertrifft alle Erwartungen. Von der herzlichen Begrüßung bis zum letzten Bissen war alles perfekt. Die Präsentation der Gerichte war eine wahre Augenweide, und der Geschmack war einfach himmlisch. Ein Ort, den ich meinen Freunden uneingeschränkt empfehlen kann!"
+                    </p>
+                    <h3>Sophia Wagner</h3>
+                    <h5>★★★★★</h5>
+                    <h4>1328 Likes</h4>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>
+                        "Beeindruckendes kulinarisches Erlebnis! Das Ambiente ist elegant, der Service ausgezeichnet und die Aromen in jedem Gericht sind meisterhaft kombiniert. Dieses Restaurant setzt wirklich Maßstäbe für anspruchsvolle Genießer. Ich werde definitiv wiederkommen!"
+                    </p>
+                    <h3>Alexander Müller</h3>
+                    <h5>★★★★★</h5>
+                    <h4>1542 Likes</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="reservierung">
+        <h1>Reservieren Sie hier Ihren Tisch</h1>
+        <a type="button" onclick="window.location.href='reservierung.html'" class="hero-btn">Reservierung</a>
+    </section>
+
+    <section class="footer">
+        <a href="index.html"><img src="images/Restaurant-Logo.jpg"></a>
+        <h4>Lecker-Super Restaurant</h4>
+        <p>© All rights reserved</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+        function sendeBewertung() {
+            var rating = document.getElementById("rating").value;
+            alert("Die Bewertung " + rating + " Sterne wurde erfolgreich gesendet.");
+            document.getElementById("rating").value = "0";
+        }
+    </script>
+
+</body>
+</html>
