@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservierung</title>
+    <link rel="stylesheet" href="ticketcss.css">
+</head>
+<body>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Ticket</h2>
+                <hr>
+            </div>
+            <div class="farbe">
+                <input type="hidden" name="access_key" value="77ef9aed-f4d5-46df-a322-dbfb462cb3f2">
+                <input type="text" name="name" placeholder="Name" class="contact-inputs" required>
+                <input type="text" name="email" placeholder="Email" class="contact-inputs" required>
+                <textarea name="problem" placeholder="Problem" class="contact-inputs"></textarea>
+                <button type="submit">Senden</button>
+                <button type="button" onclick="window.location.href='index.html'">Zurück</button>
+            </div>    
+        </form>
+    </div>
+</body>
+</html>
