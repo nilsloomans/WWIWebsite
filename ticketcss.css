@@ -1,9 +1,10 @@
+/* Genereller Style für die komplette Seite */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Style für den Container wo die Elemente hinein kommen */
 .container{
     width: 100%;
     height: 100vh;
@@ -15,7 +16,7 @@
     background-position: center;
     background-size: 100%;
 }
-
+/* Style für die Eingabefelder etc. */
 form{
     background: #ffffff;
     display: flex;
@@ -80,7 +81,7 @@ form{
 .contact-inputs::placeholder{
     color: #4b4b4b;
 }
-
+/* Style für den Button */
 .contact-left button{
     display: flex;
     align-items: center;
@@ -95,7 +96,7 @@ form{
     width: 110px;
     margin-bottom: 10px;
 }
-
+/* Anpassung für Handy etc. */
 @media (max-width:700px){
     .contact-inputs{
         width: 80vw;
