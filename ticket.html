@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservierung</title>
+    <!-- Verlinkung mit dem CSS Stylesheet -->
     <link rel="stylesheet" href="ticketcss.css">
 </head>
 <body>
+    <!-- Erstellung eines Containers wo alles reinkommt -->
     <div class="container">
+        <!-- Einfügen der API zum versenden der Mails -->
         <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
             <div class="title">
                 <h2>Ticket</h2>
                 <hr>
             </div>
+            <!-- Eingabefelder für die Supportseite -->
             <div class="eingabe">
                 <input type="hidden" name="access_key" value="77ef9aed-f4d5-46df-a322-dbfb462cb3f2">
                 <input type="text" name="name" placeholder="Name" class="contact-inputs" required>
