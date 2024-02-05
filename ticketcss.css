@@ -29,22 +29,22 @@ form{
     border-radius: 10px;
 }
 
-.farbe input{
+.eingabe input{
     background-color: #e9f6ff;
 }
 
-.farbe textarea{
+.eingabe textarea{
     background-color: #e9f6ff;
 }
 
-.contact-left-title h2{
+.title h2{
     font-weight: 600;
     color: #82bcff;
     font-size: 40px;
     margin-bottom: 5px;
 }
 
-.contact-left-title hr{
+.title hr{
     border: none;
     width: 110px;
     height: 5px;
