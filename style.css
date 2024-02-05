@@ -1,8 +1,9 @@
+/* Genereller style für die komplette seite */
 *{
     margin: 0;
     padding: 0;
 }
-
+/* Style für die Anzeige wenn man auf die website geht */
 .header{
     min-height: 100vh;
     width: 100%;
@@ -11,7 +12,7 @@
     background-size: cover;
     position: relative;
 }
-
+/* Alle Styles für die Navbar */
 nav{
     display: flex;
     padding: 2% 6%;
@@ -54,7 +55,7 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-
+/* Style für die text-box in der Mitte auf der Startseite*/
 .text-box{
     width: 90%;
     color: #fff;
@@ -74,7 +75,7 @@ nav img{
     font-size: 20px;
     color: #fff;
 }
-
+/* Genereller Style für alle Buttons */
 .hero-btn{
     display: inline-block;
     color: #82bcff;
@@ -95,7 +96,7 @@ nav img{
 nav .fa{
     display: none;
 }
-
+/* Anpassungen damit es auf dem Handy etc. passt */
 @media(max-width: 700px){
     .text-box h1{
         font-size: 20px;
@@ -125,7 +126,7 @@ nav .fa{
         padding: 30px;
     }
 }
-
+/* Style für die Speisekartensektion */
 .speisekarte{
     width: 80%;
     margin: auto;
@@ -173,13 +174,13 @@ h3{
 .speisekarte-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
-
+/* Anpassung für Handy etc. */
 @media(max-width: 700px){
     .row{
         flex-direction: column;
     }
 }
-
+/* Style für die Standortsektion */
 .standort{
     width: 80%;
     margin: auto;
@@ -230,7 +231,7 @@ h3{
     bottom: 49%;
     opacity: 1;
 }
-
+/* Style für die Öffnungszeitensektion */
 .oeffnungszeiten{
     width: 80%;
     margin: auto;
@@ -259,7 +260,7 @@ h3{
     margin-bottom: 15px;
     text-align: center;
 }
-
+/* Style für die Bewertungssektion */
 .bewertung{
     width: 80%;
     margin: auto;
@@ -314,7 +315,7 @@ h3{
 .bewertung-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
-
+/* Style für die Reservierungssektion */
 .reservierung{
     margin: 100px auto;
     width: 80%;
@@ -331,13 +332,13 @@ h3{
     margin-bottom: 40px;
     padding: 0;
 }
-
+/* Anpassungen für Handy etc. */
 @media(max-width: 700px){
     .reservierung h1{
         font-size: 24px;
     }
 }
-
+/* Style für die Footersektion */
 .footer{
     width: 100%;
     text-align: center;
